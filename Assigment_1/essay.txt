@@ -1,0 +1,23 @@
+1) For ...of is a loop where we can brek from it or await , for Each 
+is amethod  used in Arrays.
+     ....................
+2)Hoisting means raising the declaration at the top of the function's scope 
+for example:
+console.log(x)
+var x =0
+which means :
+var x 
+console.log(x)
+x=0   , TDZ: happens with let and const where you do hoisting but you cannot access the variable 
+for example: 
+console.log(x)
+let x =0
+     .................................
+3) == supports type conversion , === does not support type conversion
+     .................................
+
+4) we put the part of code that mght raise an error in the try block and how to handle the error in the catch part . it is importan to handle rejected promises so the program will not be crashed 
+
+     .................................
+5) Type conversion: converts a value from one type to another manually 
+   type coercion: JavaScript automatically converts value from one type to another 
