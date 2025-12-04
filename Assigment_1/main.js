@@ -136,43 +136,43 @@ function q11(){
 q11();
 
 //12.................
-// function message(){
-//     return new Promise((r,j)=>{
-//         setTimeout(() => {
-//             console.log("success")
-//         }, 3000);
-//     })
-// }
-// message()
+function message(){
+    return new Promise((r,j)=>{
+        setTimeout(() => {
+            console.log("success")
+        }, 3000);
+    })
+}
+message()
 
 //13..................
-// function findMax(arr) {
-//     let max = arr[0]
+function findLargest(arr) {
+    let max = arr[0]
 
-//     for (let i = 1; i < arr.length; i++) {
-//         if (arr[i] > max) {
-//             max = arr[i]
-//         }
-//     }
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > max) {
+            max = arr[i]
+        }
+    }
 
-//     return max;
-// }
-// console.log(findLargest([1, 3, 7, 2, 4]))
+    return max;
+}
+console.log(findLargest([1, 3, 7, 2, 4]))
 
 //14..................
 
-// function getKeys(obj) {
-//     let keys = []
-//     for (let key in obj) {
-//         keys.push(key)
-//     }
-//     return keys;
-// }
-// console.log(getKeys({ name: "John", age: 30 }))
+function getKeys(obj) {
+    let keys = []
+    for (let key in obj) {
+        keys.push(key)
+    }
+    return keys;
+}
+console.log(getKeys({ name: "John", age: 30 }))
 
 //15...................
 
-// let input="The quick brown fox"
-// let arr=[]
-// arr=input.split(" ")
-// console.log(arr)
+let input="The quick brown fox"
+let arr=[]
+arr=input.split(" ")
+console.log(arr)
