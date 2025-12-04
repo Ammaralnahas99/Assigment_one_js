@@ -1,110 +1,139 @@
 //1.................
-// let num = "123"
-// num=Number(num)+7;
-// console.log("After adding 7 to the number: " + num );
+function q1(){
+    let num = "123"
+    num=Number(num)+7;
+    console.log("After adding 7 to the number: " + num );
+}
+q1();
 
 //2..................
-// let value = prompt("Enter the value you need :");
-// if(value!=true){
-//     console.log("invalid value");
-// }
+function q2(){
+    let value = 0
+    if(value!=true){
+        console.log("invalid value");
+    }
+}
+q2();
 
 //3...................
-// for(i=1;i<=10;i++){
-//     if (i%2==0){
-//         continue
-//     }
-//     console.log(i);
-// }
+function q3(){
+    for(i=1;i<=10;i++){
+        if (i%2==0){
+            continue
+        }
+        console.log(i);
+    }
+}
+q3();
 
 //4....................
-// const arr=[1,2,3,4,5];
-// const Filtered_Array=arr.filter((i)=>{
-//     return i%2==0;
-// })
-// console.log(Filtered_Array);
+function q4(){
+    const arr=[1,2,3,4,5];
+    const Filtered_Array=arr.filter((i)=>{
+        return i%2==0;
+    })
+    console.log(Filtered_Array);
+}
+q4();
 
 //5....................
-
-// let first_array=[1,2,3,4];
-// let second_array=[5,6,7,8];
-// let merged_array= [...first_array, ...second_array];
-// console.log("Merged array : "+(merged_array));
+function q5(){
+    let first_array=[1,2,3,4];
+    let second_array=[5,6,7,8];
+    let merged_array= [...first_array, ...second_array];
+    console.log("Merged array : "+(merged_array));
+}
+q5();
 
 //6....................
-
-// let x=prompt("Enter the number of the day: ");
-// switch(Number(x)){
-//     case 1:
-//         console.log("Sunday");
-//         break;
-//     case 2:
-//         console.log("Monday");
-//         break;
-//     case 3:
-//         console.log("Tuesday");
-//         break;
-//     case 4:
-//         console.log("Wednesday");
-//         break;
-//     case 5:
-//         console.log("Thursday");
-//         break;
-//     case 6:
-//         console.log("Friday");
-//         break;
-//     case 7:
-//         console.log("Saturday");
-//         break;
-//     default:
-//         break;    
-// }
+function q6(){
+    let x=5
+    switch(Number(x)){
+        case 1:
+            console.log("Sunday");
+            break;
+        case 2:
+            console.log("Monday");
+            break;
+        case 3:
+            console.log("Tuesday");
+            break;
+        case 4:
+            console.log("Wednesday");
+            break;
+        case 5:
+            console.log("Thursday");
+            break;
+        case 6:
+            console.log("Friday");
+            break;
+        case 7:
+            console.log("Saturday");
+            break;
+        default:
+            break;    
+    }
+}
+q6();
 
 //7...................
-
-// let arr=["a","ab","abc","abcd"];
-// const LengthsOfString=arr.map((n)=>{
-//     return n.length;
-// })
-// console.log(LengthsOfString)
+function q7(){
+    let arr=["a","ab","abc","abcd"];
+    const LengthsOfString=arr.map((n)=>{
+        return n.length;
+    })
+    console.log(LengthsOfString)
+}
+q7();
 
 //8...................
-// let num = prompt("Enter the number you need:");
-// if(num%3==0 && num%5==0 && num!=false){
-//     console.log( num + " is divisible by both 3 and 5")
-// }
-// else{
-//     console.log(num + " is not divisible by both 3 and 5");
-// }
+function q8(){
+    let num =15
+    if((num%3==0 && num%5==0) && (num!=false)){
+        console.log( num + " is divisible by both 3 and 5")
+    }
+    else{
+        console.log(num + " is not divisible by both 3 and 5");
+    }
+}
+q8();
 
 //9...................
-// let num =prompt("Enter the number you need:");
-// let number_squared = num=>{
-//     return num*num;
-// };
-// console.log(number_squared(num))
+function q9(){
+    let num =5
+    let number_squared = num=>{
+        return num*num;
+    };
+    console.log(number_squared(num))
+}
+q9();
 
 //10..................
-// const person = {
-//     name: "John",
-//     age: 25
-// };
+function q10(){
+    const person = {
+        name: "John",
+        age: 25
+    };
 
-// const output = ({ name, age }) => {
-//     return `${name} is ${age} years old`;
-// };
-// console.log(output(person)); 
+    const output = ({ name, age }) => {
+        return `${name} is ${age} years old`;
+    };
+    console.log(output(person)); 
+}
+q10();
 
 //11..................
-
-// let sum =(...args)=>{
-//     let total=0
-//     for (i of args){
-//         total+=i
-//     }
-//     return total
-// }
-// console.log(sum(1,2,3,4))
+function q11(){
+    let sum =(...args)=>{
+        let total=0
+        for (i of args){
+            total+=i
+        }
+        return total
+    }
+    console.log(sum(1,2,3,4)) 
+}
+q11();
 
 //12.................
 // function message(){
